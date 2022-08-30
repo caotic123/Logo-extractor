@@ -81,8 +81,8 @@ fetch address = do
   request <- parseRequest address
   let req =
         request
-          { requestHeaders = [("hUserAgent", "Mozilla / 5.0(Windows; U; WindowsNT 5.1; en - US; rv1.8.1.6) Gecko / 20070725 Firefox / 2.0.0.6"), ("hReferer", "http://www.google.com")]
-          }
+          -- { requestHeaders = [("hUserAgent", "Mozilla / 5.0(Windows; U; WindowsNT 5.1; en - US; rv1.8.1.6) Gecko / 20070725 Firefox / 2.0.0.6"), ("hReferer", "http://www.google.com")]
+          -- }
   response <- httpLbs req managerClient
   let content = responseBody response
   let res = case Search.run (fromString address) content of

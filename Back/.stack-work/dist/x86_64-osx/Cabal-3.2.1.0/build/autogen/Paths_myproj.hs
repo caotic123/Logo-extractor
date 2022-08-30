@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/Users/caotic/Desktop/Projects/myproj/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/bin"
-libdir     = "/Users/caotic/Desktop/Projects/myproj/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/lib/x86_64-osx-ghc-8.10.7/myproj-0.1.0.0-YuSazjbjSB47vnHOG40WT"
-dynlibdir  = "/Users/caotic/Desktop/Projects/myproj/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/lib/x86_64-osx-ghc-8.10.7"
-datadir    = "/Users/caotic/Desktop/Projects/myproj/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/share/x86_64-osx-ghc-8.10.7/myproj-0.1.0.0"
-libexecdir = "/Users/caotic/Desktop/Projects/myproj/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/libexec/x86_64-osx-ghc-8.10.7/myproj-0.1.0.0"
-sysconfdir = "/Users/caotic/Desktop/Projects/myproj/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/etc"
+bindir     = "/Users/caotic/Desktop/Projects/App/Back/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/bin"
+libdir     = "/Users/caotic/Desktop/Projects/App/Back/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/lib/x86_64-osx-ghc-8.10.7/myproj-0.1.0.0-YuSazjbjSB47vnHOG40WT"
+dynlibdir  = "/Users/caotic/Desktop/Projects/App/Back/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/lib/x86_64-osx-ghc-8.10.7"
+datadir    = "/Users/caotic/Desktop/Projects/App/Back/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/share/x86_64-osx-ghc-8.10.7/myproj-0.1.0.0"
+libexecdir = "/Users/caotic/Desktop/Projects/App/Back/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/libexec/x86_64-osx-ghc-8.10.7/myproj-0.1.0.0"
+sysconfdir = "/Users/caotic/Desktop/Projects/App/Back/.stack-work/install/x86_64-osx/c72b47847b153c38db8ae2b3582ad077bca9475f96439c44785a37cbc2656924/8.10.7/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "myproj_bindir") (\_ -> return bindir)
