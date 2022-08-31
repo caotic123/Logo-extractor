@@ -44,7 +44,7 @@ Extracting the urls and looking "hotwords" it not precise enought to get at leas
 
 Both of the best ways of interpreting a logo are very human-mind oriented, I mean there is always the possibility of using an IA model, and I believe we can almost get it right using it, but first I do not have enough data to that and it is a very complex implementation, such that may be out of the scope for this home-task. 
 
-So, I limited the project to search for HTML semantics characteristics, what I do here is to apply a heuristic that resembles genetic algorithms, so points (fitness) our accumulated, and they are shared by neighbors depending on HTML position.
+So, I limited the project to search for HTML semantics characteristics, what I do here is to apply a heuristic that resembles genetic algorithms, so points (fitness) are accumulated, and they are shared by neighbors depending on HTML position.
 
 # Limitations
 
