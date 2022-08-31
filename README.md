@@ -2,7 +2,7 @@
 
 This project is a web logo extractor based purely on HTML parsing and semantics analysis, it is construed by that structure :
  
-  Back : An API is written in Haskell that is responsible to fetch the website address, parsing it, analyzing/applying a semantic-based heuristic, and finally returning an array of possible web logos candidates.
+  Back : The API is written in Haskell that is responsible to fetch the website address, parsing it, analyzing/applying a semantic-based heuristic, and finally returning an array of possible web logos candidates.
   
   Front : Just a console-based application written in Python that validates the URL and asks the back for the result, finally it writes everything on a CSV file.
  
