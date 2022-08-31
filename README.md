@@ -49,6 +49,6 @@ So, I limited the project to search for HTML semantics characteristics, what I d
 # Limitations
 
 There are two crucial limitations, first is the algorithm can not detect SVG-based logos (as defined by SVG HTML tag), and the second is there is no searching for .css file, so a logo that is defined on CSS background-URL for example can not be analyzed. This is crucial because most of the time we do not have a guess because of the two major problems. 
-I decided not to implement it because it will probably take extra time for this work, the first is not so much because the parser is already adapted to recognize HTML tags context, but the second problem needs besides the context HTML analysis, it also needs a full search for the CSS files.
+I decided not to implement it because it will probably take extra time for this work, the first, not so much because the parser is already adapted to recognize HTML tags context, but the second problem needs besides the context HTML analysis, it also needs a full search for the CSS files.
 
 So, I decided not to delay more this work, but we can discuss further implementations if that is really a problem.
