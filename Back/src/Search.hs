@@ -16,7 +16,7 @@ import ParserHtml
 import Text.Parsec (ParseError, parse)
 
 hotWords :: [(String, Double)]
-hotWords = [("logo", 25), ("brand", 15)]
+hotWords = [("logo", 25), ("brand", 15), ("asset", 10), ("banner", 5)]
 
 tagHotWords :: [(String, Double)]
 tagHotWords = [("img", 4)]
