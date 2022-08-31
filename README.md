@@ -23,7 +23,7 @@ stack build
 stack exec myprok-exe
 ```
 
-The front needs (Python3)[https://www.python.org/downloads/] installed and the (poetry package manager)[https://python-poetry.org/docs/master/#installing-with-the-official-installer]:
+The front needs [Python3](https://www.python.org/downloads/) installed and the [poetry package manager](https://python-poetry.org/docs/master/#installing-with-the-official-installer):
 
 To run it is very easy just run this command:
 
