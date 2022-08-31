@@ -31,7 +31,7 @@ To run it is very easy just run this command:
 poetry run python front/main.py
 ```
 
-The result will be displayed on a result.cvs file *will take a long time, so be patient, some websites are off in the CSV file, so it takes 5 seconds as a timeout*.
+The result will be displayed on a result.cvs file (*will take a long time, so be patient, some websites are off in the CSV file, so it takes 5 seconds as a timeout*).
 
 For now, we do not have the nix environment, but I can work with it this week (The problem is I did this project using an M1 chip that is not well supported by the nix yet, but I will try in another machine).
 
