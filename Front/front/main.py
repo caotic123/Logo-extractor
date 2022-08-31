@@ -27,7 +27,10 @@ def run():
           if (len(request['assets']) < 1) :
             writer.writerow([row, "Failed, this website probably use a svg/css html element on logo or blocked our connection"])
           else : 
-            writer.writerow([row, "ok", request['assets'][-1]['url'], str(request['assets'][-1]['rate'])])
+            format_url = request['assets'][-1]['url']
+            if (not format_url.startswith("http")) :
+              format_url = validator.url + format_url
+            writer.writerow([row, "ok", format_url, str(request['assets'][-1]['rate'])])
         else :
           raise "Failed"
       except :
